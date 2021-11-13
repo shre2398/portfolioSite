@@ -42,11 +42,11 @@ const skillsSection = {
   subTitle: "BACK-END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Back-end development in NodeJS "
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Expertise in Azure and IoT Edge"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of application with Docker / Azure"
     )
   ],
 
@@ -111,7 +111,6 @@ https://fontawesome.com/icons?d=gallery */
 };
 
 // Education Section
-
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
@@ -122,8 +121,7 @@ const educationInfo = {
       duration: "September 2021 - Present",
       desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Key Modules: Cloud Computing, Big Data Programming, Distributed Systems, Data Analytics, Advanced Data Structures, Data Science in Python, Relational Database Management System"
       ]
     },
     {
@@ -131,8 +129,8 @@ const educationInfo = {
       logo: require("./assets/images/pict.jpeg"),
       subHeader: "Bachelor of Engineering in Information Technology",
       duration: "June 2015 - May 2019",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "CGPA : 8.49/10",
+      descBullets: ["Key Modules: Data Structure and Algorithms, Operating Systems, Artificial Intelligence, Database System, Data Warehousing and Mining, Cloud Computing, Object-Oriented Programming"]
     }
   ]
 };
@@ -191,6 +189,7 @@ const workExperiences = {
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -351,7 +350,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "shre2398", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
